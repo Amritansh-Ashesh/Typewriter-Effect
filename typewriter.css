@@ -1,0 +1,28 @@
+
+/*---------------------TYPE-WRITER EFFECT-------------------------*/
+.typing{
+position: relative;
+}
+
+.typing::after{
+content: " ";
+position: absolute;
+color: white;
+height: 90%;
+margin-left: 3px;
+width: 1px;
+border-right: 2px solid white;
+animation: blink 0.7s infinite ease;
+}
+
+@keyframes blink {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+/*------------------------------------------------------------*/
