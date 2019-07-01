@@ -1,4 +1,4 @@
-<---------------------------Typewriter-Effect------------------------>
+<---------------------------Typewriter-Effect------------------------> <br>
 Adds a typewriter effect to the text on your webpage.
 
 1. Simply add **class ="typing"** to text div. <br>
